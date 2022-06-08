@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: PoppinsRegular;
+}
+header{
+    margin: auto;
+    width: 70%;
+    background-color: cornflowerblue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+p{
+    display: inline-block;
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+    width: 70%;
+}
+.trash-btn{
+    padding: 5px;
+    font-size: 30px;
+    color: white;
+    background-color: cornflowerblue;
+    border: none;
+    cursor: pointer;
+}
+main{
+    background-color: cornflowerblue;
+    width: 70%;
+    margin: auto;
+}
+#input-container{
+    margin: auto;
+    width: 70%;
+    background-color: cornflowerblue;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+#list-container{
+    margin: auto;
+    width: 50%;
+    background-color: cornflowerblue; 
+    color: white;
+    font-size: 20px;
+}
+input{
+    border: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 70%;
+    height: 40px;
+}
+input:focus{
+    outline: none;
+}
+.plus-btn{
+    font-size: 30px;
+    color: white;
+    background-color: cornflowerblue;
+    border: none;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    flex-direction: column-reverse;
+    list-style: none;
+    padding-bottom: 30px;
+}
+li{
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.done{
+    text-decoration: line-through;
+}
