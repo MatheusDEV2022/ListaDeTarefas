@@ -32,7 +32,7 @@ main{
     width: 70%;
     margin: auto;
 }
-.input-container{
+#input-container{
     margin: auto;
     width: 70%;
     background-color: cornflowerblue;
@@ -41,7 +41,7 @@ main{
     display: flex;
     justify-content: center;
 }
-.list-container{
+#list-container{
     margin: auto;
     width: 50%;
     background-color: cornflowerblue; 
@@ -55,6 +55,9 @@ input{
     width: 70%;
     height: 40px;
 }
+input:focus{
+    outline: none;
+}
 .plus-btn{
     font-size: 30px;
     color: white;
@@ -67,4 +70,11 @@ ul{
     flex-direction: column-reverse;
     list-style: none;
     padding-bottom: 30px;
+}
+li{
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.done{
+    text-decoration: line-through;
 }
